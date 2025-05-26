@@ -45,6 +45,16 @@ Although still a work in progress, it is functional and can accept natural langu
 
 The script will interpret and execute these browser actions step-by-step.
 
+### `Omniparser_Api.py`
+- Calls the Omniparser demo API hosted on Hugging Face Spaces.
+
+### `Omniparser_API_overcolab.ipynb`
+- A notebook that **demanded countless hours of troubleshooting and setup** due to compatibility issues among various Microsoft repositories.
+- Resolves package inconsistencies to enable execution on Colab.
+- Intended for deployment via Gradio or Ngrok as a temporary API service.
+
+
+
 ---
 
 ## 📌 Notes
