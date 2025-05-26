@@ -1,4 +1,8 @@
 
+<div align="center">
+  <img src="assets/agent-flow-diagram.jpg" alt="Agent Flow Diagram" style="max-width: 40%; height: auto;" />
+</div>
+
 
 ````markdown
 # 🧠 desktop_agent_GUI
