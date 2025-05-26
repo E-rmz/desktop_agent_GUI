@@ -34,7 +34,7 @@ This project includes two main files that form the core of the desktop automatio
 
 ### `main.py`
 
-This script connects to the **Playwright MCP server** built by Microsoft and acts as a client that communicates with the server to perform browser automation tasks.(**It connects to MCP server but Not Working Properly. i will back to it later**
+This script connects to the **Playwright MCP server** built by Microsoft and acts as a client that communicates with the server to perform browser automation tasks.(**It connects to MCP server but Not Working Properly. i will back to it later**)
 
 ### `playwright_direct_agent.py`
 
