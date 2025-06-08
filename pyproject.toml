@@ -73,4 +73,5 @@ dependencies = [
     "pyautogui>=0.9.54",
     "gradio>=5.31.0",
     "gradio-client>=1.10.1",
+    "Pillow>=10.0.0",
 ]
