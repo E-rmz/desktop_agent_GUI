@@ -1,0 +1,99 @@
+2025-06-08 19:57:41,532 - INFO - === Starting Enhanced Playwright Agent with OmniParser ===
+2025-06-08 19:57:41,541 - INFO - Initialized LLM: models/gemini-2.0-flash
+2025-06-08 19:57:41,541 - INFO - Created 8 enhanced tools (Browser + OmniParser + PyAutoGUI)
+2025-06-08 19:57:41,551 - INFO - Enhanced Playwright + OmniParser ReAct agent created successfully
+2025-06-08 19:58:00,700 - INFO - === Session 1 ===
+2025-06-08 19:58:00,701 - INFO - USER INPUT: open youtube and search for eminem songs.
+2025-06-08 19:58:00,701 - INFO - Invoking enhanced Playwright agent...
+2025-06-08 19:58:02,790 - INFO - Launching browser (headless=False)
+2025-06-08 19:58:04,043 - INFO - Browser launched successfully
+2025-06-08 19:58:04,701 - INFO - Navigating to: https://www.youtube.com
+2025-06-08 19:58:08,775 - INFO - Successfully navigated to https://www.youtube.com, page title: YouTube
+2025-06-08 19:58:09,207 - INFO - Waiting for 10 seconds...
+2025-06-08 19:58:19,238 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 19:58:19,682 - INFO - Taking screenshot: screenshot_20250608_195819.png
+2025-06-08 19:58:19,795 - INFO - Screenshot saved: screenshot_20250608_195819.png
+2025-06-08 19:58:20,265 - INFO - Starting OmniParser screen analysis...
+2025-06-08 19:58:20,959 - INFO - Screenshot saved to: omniparser_screenshot_20250608_195820.png
+2025-06-08 19:58:20,959 - INFO - Connecting to OmniParser-v2 space...
+2025-06-08 19:58:22,373 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/config "HTTP/1.1 200 OK"
+2025-06-08 19:58:23,023 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2025-06-08 19:58:23,031 - INFO - Processing screenshot with OmniParser...
+2025-06-08 19:58:23,569 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/heartbeat/45db36ae-392e-4a0d-939d-95f4d9738b8f "HTTP/1.1 200 OK"
+2025-06-08 19:58:26,813 - INFO - HTTP Request: POST https://microsoft-omniparser-v2.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2025-06-08 19:58:29,852 - INFO - HTTP Request: POST https://microsoft-omniparser-v2.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2025-06-08 19:58:30,371 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/queue/data?session_hash=45db36ae-392e-4a0d-939d-95f4d9738b8f "HTTP/1.1 200 OK"
+2025-06-08 19:58:37,803 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/file=/tmp/gradio/167a382a443786874c398ea2a0d85fc1fae5e3afc5d80b14ddbbfc8358c0f043/image.webp "HTTP/1.1 200 OK"
+2025-06-08 19:58:38,221 - INFO - OmniParser processing completed successfully!
+2025-06-08 19:58:38,222 - INFO - OmniParser analysis completed successfully
+2025-06-08 19:58:38,931 - INFO - Clicking at coordinates (625, 177) with left button, 1 clicks
+2025-06-08 19:58:39,087 - INFO - Successfully clicked at (625, 177) using left button (1 clicks). Screen size: 1512x982
+2025-06-08 19:58:39,751 - INFO - Waiting for 10 seconds...
+2025-06-08 19:58:49,761 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 19:58:50,332 - INFO - Typing text: 'eminem songs' with interval 0.1s
+2025-06-08 19:58:52,008 - INFO - Successfully typed: 'eminem songs' (length: 12 characters)
+2025-06-08 19:58:52,699 - INFO - Waiting for 10 seconds...
+2025-06-08 19:59:02,708 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 19:59:03,380 - INFO - Clicking at coordinates (670, 177) with left button, 1 clicks
+2025-06-08 19:59:03,518 - INFO - Successfully clicked at (670, 177) using left button (1 clicks). Screen size: 1512x982
+2025-06-08 19:59:04,151 - INFO - Waiting for 10 seconds...
+2025-06-08 19:59:14,158 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 19:59:14,775 - INFO - Taking screenshot: screenshot_20250608_195914.png
+2025-06-08 19:59:14,934 - INFO - Screenshot saved: screenshot_20250608_195914.png
+2025-06-08 19:59:15,592 - ERROR - Error processing request: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2025-06-08 19:59:15,592 - INFO - === End of Session 1 ===
+
+2025-06-08 20:04:07,386 - INFO - === Session 2 ===
+2025-06-08 20:04:07,387 - INFO - USER INPUT: first open youtube website, then in the search bar of youtube; search for eminem best album. then click on search button. end of tasks!
+2025-06-08 20:04:07,387 - INFO - Invoking enhanced Playwright agent...
+2025-06-08 20:04:10,598 - INFO - Navigating to: https://www.youtube.com
+2025-06-08 20:04:12,149 - INFO - Successfully navigated to https://www.youtube.com, page title: YouTube
+2025-06-08 20:04:12,734 - INFO - Waiting for 10 seconds...
+2025-06-08 20:04:22,740 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 20:04:23,410 - INFO - Taking screenshot: screenshot_20250608_200423.png
+2025-06-08 20:04:23,483 - INFO - Screenshot saved: screenshot_20250608_200423.png
+2025-06-08 20:04:24,122 - INFO - Starting OmniParser screen analysis...
+2025-06-08 20:04:24,559 - INFO - Screenshot saved to: omniparser_screenshot_20250608_200424.png
+2025-06-08 20:04:24,559 - INFO - Connecting to OmniParser-v2 space...
+2025-06-08 20:04:25,982 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/config "HTTP/1.1 200 OK"
+2025-06-08 20:04:26,696 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2025-06-08 20:04:26,700 - INFO - Processing screenshot with OmniParser...
+2025-06-08 20:04:27,221 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/heartbeat/1e7edbd2-18dc-435e-b32d-e6a6d36c931c "HTTP/1.1 200 OK"
+2025-06-08 20:04:30,273 - INFO - HTTP Request: POST https://microsoft-omniparser-v2.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2025-06-08 20:04:30,848 - INFO - HTTP Request: POST https://microsoft-omniparser-v2.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2025-06-08 20:04:31,367 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/queue/data?session_hash=1e7edbd2-18dc-435e-b32d-e6a6d36c931c "HTTP/1.1 200 OK"
+2025-06-08 20:04:37,963 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/file=/tmp/gradio/97911c0bc792f3cf337592a7c0b65b6528e98e2329e3c2b81ecb4507a9b49853/image.webp "HTTP/1.1 200 OK"
+2025-06-08 20:04:38,473 - INFO - OmniParser processing completed successfully!
+2025-06-08 20:04:38,475 - INFO - OmniParser analysis completed successfully
+2025-06-08 20:04:39,282 - INFO - Clicking at coordinates (390, 100) with left button, 1 clicks
+2025-06-08 20:04:39,399 - INFO - Successfully clicked at (390, 100) using left button (1 clicks). Screen size: 1512x982
+2025-06-08 20:04:40,200 - INFO - Waiting for 10 seconds...
+2025-06-08 20:04:50,208 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 20:04:51,060 - INFO - Typing text: 'eminem best album' with interval 0.1s
+2025-06-08 20:04:53,364 - INFO - Successfully typed: 'eminem best album' (length: 17 characters)
+2025-06-08 20:04:54,166 - INFO - Waiting for 10 seconds...
+2025-06-08 20:05:04,173 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 20:05:04,981 - INFO - Starting OmniParser screen analysis...
+2025-06-08 20:05:05,428 - INFO - Screenshot saved to: omniparser_screenshot_20250608_200505.png
+2025-06-08 20:05:05,429 - INFO - Connecting to OmniParser-v2 space...
+2025-06-08 20:05:06,533 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/config "HTTP/1.1 200 OK"
+2025-06-08 20:05:07,257 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2025-06-08 20:05:07,261 - INFO - Processing screenshot with OmniParser...
+2025-06-08 20:05:07,848 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/heartbeat/0183d18a-0391-480a-b588-7e3d28b3541c "HTTP/1.1 200 OK"
+2025-06-08 20:05:10,768 - INFO - HTTP Request: POST https://microsoft-omniparser-v2.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2025-06-08 20:05:11,318 - INFO - HTTP Request: POST https://microsoft-omniparser-v2.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2025-06-08 20:05:11,929 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/queue/data?session_hash=0183d18a-0391-480a-b588-7e3d28b3541c "HTTP/1.1 200 OK"
+2025-06-08 20:05:18,958 - INFO - HTTP Request: GET https://microsoft-omniparser-v2.hf.space/gradio_api/file=/tmp/gradio/b56784ecacb0f3a91bf622b0bff258947c1d04998247d8663fdcaf6f71c373fe/image.webp "HTTP/1.1 200 OK"
+2025-06-08 20:05:19,393 - INFO - OmniParser processing completed successfully!
+2025-06-08 20:05:19,397 - INFO - OmniParser analysis completed successfully
+2025-06-08 20:05:20,652 - INFO - Clicking at coordinates (650, 175) with left button, 1 clicks
+2025-06-08 20:05:20,769 - INFO - Successfully clicked at (650, 175) using left button (1 clicks). Screen size: 1512x982
+2025-06-08 20:05:21,879 - INFO - Waiting for 10 seconds...
+2025-06-08 20:05:31,887 - INFO - Wait completed. Browser still open with page: YouTube
+2025-06-08 20:05:32,967 - ERROR - Error processing request: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2025-06-08 20:05:32,967 - INFO - === End of Session 2 ===
+
+2025-06-10 09:03:51,374 - INFO - === Session ended by user ===
+2025-06-10 09:03:51,378 - INFO - Cleaning up browser on exit...

@@ -1,0 +1,309 @@
+2025-05-25 10:47:06,623 - INFO - === Starting MCP Agent Session ===
+2025-05-25 10:47:06,638 - INFO - Initialized LLM: models/gemini-2.0-flash
+2025-05-25 10:47:06,638 - INFO - MCP Server Configuration: {'playwright': {'command': 'npx', 'args': ['@playwright/mcp@latest'], 'transport': 'stdio', 'environment': {'PLAYWRIGHT_HEADLESS': 'false'}}}
+2025-05-25 10:47:06,638 - INFO - Initializing MCP client...
+2025-05-25 10:47:07,705 - INFO - Available tools: ['browser_close', 'browser_resize', 'browser_console_messages', 'browser_handle_dialog', 'browser_file_upload', 'browser_install', 'browser_press_key', 'browser_navigate', 'browser_navigate_back', 'browser_navigate_forward', 'browser_network_requests', 'browser_pdf_save', 'browser_take_screenshot', 'browser_snapshot', 'browser_click', 'browser_drag', 'browser_hover', 'browser_type', 'browser_select_option', 'browser_tab_list', 'browser_tab_new', 'browser_tab_select', 'browser_tab_close', 'browser_generate_playwright_test', 'browser_wait_for']
+2025-05-25 10:47:07,705 - INFO - 
+=== Available MCP Tools ===
+- browser_close: Close the page
+- browser_resize: Resize the browser window
+- browser_console_messages: Returns all console messages
+- browser_handle_dialog: Handle a dialog
+- browser_file_upload: Upload one or multiple files
+- browser_install: Install the browser specified in the config. Call this if you get an error about the browser not being installed.
+- browser_press_key: Press a key on the keyboard
+- browser_navigate: Navigate to a URL
+- browser_navigate_back: Go back to the previous page
+- browser_navigate_forward: Go forward to the next page
+- browser_network_requests: Returns all network requests since loading the page
+- browser_pdf_save: Save page as PDF
+- browser_take_screenshot: Take a screenshot of the current page. You can't perform actions based on the screenshot, use browser_snapshot for actions.
+- browser_snapshot: Capture accessibility snapshot of the current page, this is better than screenshot
+- browser_click: Perform click on a web page
+- browser_drag: Perform drag and drop between two elements
+- browser_hover: Hover over element on page
+- browser_type: Type text into editable element
+- browser_select_option: Select an option in a dropdown
+- browser_tab_list: List browser tabs
+- browser_tab_new: Open a new tab
+- browser_tab_select: Select a tab by index
+- browser_tab_close: Close a tab
+- browser_generate_playwright_test: Generate a Playwright test for given scenario
+- browser_wait_for: Wait for text to appear or disappear or a specified time to pass
+===========================
+2025-05-25 10:47:07,717 - INFO - ReAct agent created successfully
+2025-05-25 10:47:44,131 - INFO - === Session 1 ===
+2025-05-25 10:47:44,132 - INFO - USER INPUT: open the "www.yahoo.com" accept consents and stay there for 20 second then close it.
+2025-05-25 10:47:44,132 - INFO - Invoking agent with messages...
+2025-05-25 10:47:44,145 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,146 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,146 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,146 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,146 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,146 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,146 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,147 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,148 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:44,149 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,007 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,007 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,007 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,007 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,008 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,009 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,010 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,010 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,010 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:47,010 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:47,010 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,978 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,979 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:50,980 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,622 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,622 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,622 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,622 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,622 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,622 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,623 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:53,624 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,665 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,665 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,665 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,665 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,666 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,667 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:47:57,668 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,094 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,094 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,094 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,094 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,095 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,096 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:03,097 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:03,097 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,855 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,855 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,855 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,855 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,855 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,855 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,856 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:04,857 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,641 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,641 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,642 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,643 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,644 - WARNING - Key '$schema' is not supported in schema, ignoring
+2025-05-25 10:48:08,645 - WARNING - Key 'additionalProperties' is not supported in schema, ignoring
+2025-05-25 10:48:08,645 - WARNING - Key '$schema' is not supported in schema, ignoring

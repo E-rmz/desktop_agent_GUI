@@ -1,0 +1,33 @@
+2025-05-25 11:08:19,839 - INFO - === Starting Direct Playwright Agent ===
+2025-05-25 11:08:19,854 - INFO - Initialized LLM: models/gemini-2.0-flash
+2025-05-25 11:08:19,854 - INFO - Created 5 custom Playwright tools
+2025-05-25 11:08:19,861 - INFO - Direct Playwright ReAct agent created successfully
+2025-05-25 11:08:50,903 - INFO - === Session 1 ===
+2025-05-25 11:08:50,903 - INFO - USER INPUT: hello, just open the yahoo.com for me and stay there.
+2025-05-25 11:08:50,903 - INFO - Invoking direct Playwright agent...
+2025-05-25 11:08:52,456 - INFO - Launching browser (headless=False)
+2025-05-25 11:08:55,450 - INFO - Browser launched successfully
+2025-05-25 11:08:56,077 - INFO - Navigating to: yahoo.com
+2025-05-25 11:08:56,088 - ERROR - Failed to navigate to yahoo.com: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "yahoo.com", waiting until "networkidle"
+
+2025-05-25 11:08:56,831 - INFO - Navigating to: https://www.yahoo.com
+2025-05-25 11:08:59,811 - INFO - Successfully navigated to https://www.yahoo.com, page title: Yahoo fa parte della famiglia di brand Yahoo.
+2025-05-25 11:09:00,475 - INFO - Waiting for 5 seconds...
+2025-05-25 11:09:05,482 - INFO - Wait completed. Browser still open with page: Yahoo fa parte della famiglia di brand Yahoo.
+2025-05-25 11:09:06,278 - INFO - Agent response received
+2025-05-25 11:09:06,278 - INFO - AGENT REPLY: I have launched the browser and navigated to yahoo.com. I have also waited 5 seconds. The browser is still open.
+2025-05-25 11:09:06,278 - INFO - TOOL STEP 1: Okay, I can do that. First, I will launch the browser, then navigate to yahoo.com, wait for the page to load, and finally take a screenshot. After that, I will wait for an additional 5 seconds to keep the browser open.
+2025-05-25 11:09:06,278 - INFO - TOOL STEP 2: Browser launched successfully. Ready for navigation.
+2025-05-25 11:09:06,278 - INFO - TOOL STEP 3: Okay, I've launched the browser. Now I will navigate to yahoo.com.
+2025-05-25 11:09:06,279 - INFO - TOOL STEP 4: Failed to navigate to yahoo.com: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "yahoo.com", waiting until "networkidle"
+
+2025-05-25 11:09:06,279 - INFO - TOOL STEP 5: I apologize, it seems I had trouble with the URL. I will try again with the correct format.
+2025-05-25 11:09:06,279 - INFO - TOOL STEP 6: Successfully navigated to https://www.yahoo.com. Page title: 'Yahoo fa parte della famiglia di brand Yahoo.'. Browser is open and ready.
+2025-05-25 11:09:06,279 - INFO - TOOL STEP 8: Waited for 5 seconds. Browser is still open and active with page: 'Yahoo fa parte della famiglia di brand Yahoo.'
+2025-05-25 11:09:06,279 - INFO - === End of Session 1 ===
+
+2025-05-25 11:10:07,104 - INFO - Cleaning up browser on exit...

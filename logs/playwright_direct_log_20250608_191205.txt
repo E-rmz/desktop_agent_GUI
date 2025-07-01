@@ -1,0 +1,19 @@
+2025-06-08 19:12:05,489 - INFO - === Starting Direct Playwright Agent ===
+2025-06-08 19:12:05,514 - INFO - Initialized LLM: models/gemini-2.0-flash
+2025-06-08 19:12:05,514 - INFO - Created 5 custom Playwright tools
+2025-06-08 19:12:05,520 - INFO - Direct Playwright ReAct agent created successfully
+2025-06-08 19:12:23,502 - INFO - === Session 1 ===
+2025-06-08 19:12:23,503 - INFO - USER INPUT: open google chrome, go to weather find bologna weather.
+2025-06-08 19:12:23,503 - INFO - Invoking direct Playwright agent...
+2025-06-08 19:12:24,041 - ERROR - Error processing request: Invalid argument provided to Gemini: 400 API Key not found. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API Key not found. Please pass a valid API key."
+]
+2025-06-08 19:12:24,042 - INFO - === End of Session 1 ===
+
+2025-06-08 19:12:30,079 - INFO - === Session ended by user ===

@@ -1,0 +1,5 @@
+2025-05-26 10:41:35,350 - INFO - === Starting Direct Playwright Agent ===
+2025-05-26 10:41:35,368 - INFO - Initialized LLM: models/gemini-2.0-flash
+2025-05-26 10:41:35,368 - INFO - Created 5 custom Playwright tools
+2025-05-26 10:41:35,374 - INFO - Direct Playwright ReAct agent created successfully
+2025-05-26 10:41:38,451 - INFO - === Session ended by user ===
