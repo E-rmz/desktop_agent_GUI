@@ -4,9 +4,8 @@
 
 This project introduces **Booking Benchmark**, a framework for evaluating the agentic capabilities of instruction-based vision–language models (VLMs) on GUI tasks. It provides:
 
-- A **single‑step flight‑booking** dataset  
-- Data‑processing and annotation scripts  
-- An interactive agent for real‑time GUI automation  
+- A **single‑step flight‑booking** dataset and evaluating models on it. 
+- A web agent capable of interacting with the web's GUI and performing actions
 
 ## Dataset
 
@@ -14,11 +13,10 @@ The benchmark dataset was created from scratch. An **annotated** version—gener
 
 ## Tools and Environment
 
-All data processing and model training were performed in **Google Colab**. This repository contains:
+All data processing and model evaluation were performed in **Google Colab**. This repository contains:
 
 - **Omniparser Script**  
   - Annotates the raw dataset  
-  - Defines `requirements.txt` for installing dependencies  
   - Loads model weights directly  
 
 - **Omniparser_API.py**  
@@ -38,7 +36,7 @@ Model evaluation is documented in `booking_benchmark.ipynb`. To reproduce the re
 
 1. Run all cells **in order**.  
 2. Flush the GPU before switching to a different model.  
-3. Provide your **Hugging Face** token and **Gemini API** key when prompted.
+3. Provide your **Hugging Face** token and/or **Gemini API** key when evaluating with them.
 
 ## Real‑World Application (Part 2)
 
@@ -46,7 +44,7 @@ Model evaluation is documented in `booking_benchmark.ipynb`. To reproduce the re
 
 - A VLM (Gemini)  
 - Omniparser for parsing web‑page contents  
-- Deined Tools
+- Defined Tools
 
 To reproduce the demo:
 
